@@ -200,3 +200,6 @@ docker-build: all-container
 
 .PHONY: docker-push
 docker-push: all-push
+
+.PHONY: package
+package: sub-container-amd64
